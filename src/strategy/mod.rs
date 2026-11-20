@@ -2,6 +2,7 @@
 pub async fn analyze_trading_opportunity(&self, prompt: String, sol_balance: f64) -> Result<String> {
     info!("Analyzing trading opportunity with prompt: {}", prompt);
     
+    
     // Format the prompt with market analysis requirements
     let formatted_prompt = format!(
         "{}\n\nPlease analyze this trading opportunity and provide a recommendation in the following JSON format:\n{{
