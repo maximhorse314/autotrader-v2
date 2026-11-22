@@ -1,3 +1,5 @@
+
+
 //! The module defines the [EmbeddingsBuilder] struct which accumulates objects to be embedded
 //! and batch generates the embeddings for each object when built.
 //! Only types that implement the [Embed] trait can be added to the [EmbeddingsBuilder].
